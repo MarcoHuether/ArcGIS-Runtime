@@ -21,6 +21,7 @@ public class HelloWorldActivity extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		System.out.println("test");
 		setContentView(R.layout.main);
 
 		setupProxy();
